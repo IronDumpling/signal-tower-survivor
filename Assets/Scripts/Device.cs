@@ -4,15 +4,6 @@ using UnityEngine;
 
 public class Device : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    List<Cell> cells = new List<Cell>();
+    List<Interface> interfaces = new List<Interface>();
 }
