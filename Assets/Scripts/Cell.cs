@@ -6,4 +6,9 @@ public class Cell : MonoBehaviour
 {
     Point coordinate;
     Device prtDevice;
+
+    public void Trigger()
+    {
+        prtDevice.Trigger();
+    }
 }

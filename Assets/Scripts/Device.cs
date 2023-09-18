@@ -6,4 +6,9 @@ public class Device : MonoBehaviour
 {
     List<Cell> cells = new List<Cell>();
     List<Interface> interfaces = new List<Interface>();
+
+    public void Trigger()
+    {
+
+    }
 }
