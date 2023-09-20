@@ -10,6 +10,7 @@ public class MainBoard : MonoBehaviour
     [SerializeField] float UNIT_SIZE = 1f;
 
     Grid<Cell> m_CellGrid;
+    Grid<bool> m_avalibility;
     Grid<Interface> m_XInterfaceGrid;
     Grid<Interface> m_YInterfaceGrid;
 
